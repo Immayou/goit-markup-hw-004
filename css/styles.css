@@ -406,6 +406,11 @@ img {
     display: flex;
 }
 
+.footer-call {
+    margin-left: 70px;
+    margin-right: auto;
+}
+
 .call {
     font-weight: 700;
     font-size: 14px;
@@ -414,7 +419,45 @@ img {
 
     color: var(--footer-main-text-color);
 
-    margin: 0 auto 20px 156px;
+    margin-bottom: 20px;
+}
+
+.connection-list {
+    display: flex;
+    justify-content: center;
+}
+
+
+.connection-contakt-link {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connection-contakt-link {
+    background-color: var(--accent-color);
+}
+
+/* .connection-contakt-link:hover,
+.connection-contakt-link:focus {
+    background-color: var(--accent-color);
+}
+
+.connection-contakt-link:hover .connection-contakt-icon,
+.connection-contakt-link:focus .connection-contakt-icon {
+    fill: #FFFFFF;
+} */
+
+.connection-contakt-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.connection-contakt-icon {
+    fill: #FFFFFF;
 }
 
 .logo-secondary {
