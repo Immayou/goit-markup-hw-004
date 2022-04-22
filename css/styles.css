@@ -172,6 +172,7 @@ fill: var(--accent-color);
 
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../images/hero.jpg);
+    background-size: 1600px;
 }
 
 .hero-title {
@@ -484,7 +485,7 @@ margin-right: 30px;
     justify-content: center;
 }
 
-.connection-contakt-link {
+.connection-link {
     width: 44px;
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -494,9 +495,9 @@ margin-right: 30px;
     align-items: center;
 }
 
-.connection-contakt-link.twitter: {
+/* .connection-list .twitter: {
     background-color: var(--accent-color);
-}
+} */
 
 /* .connection-contakt-link:hover,
 .connection-contakt-link:focus {
@@ -508,11 +509,11 @@ margin-right: 30px;
     fill: #FFFFFF;
 } */
 
-.connection-contakt-item:not(:last-child) {
+.connection-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.connection-contakt-icon {
+.connection-icon {
 fill: #FFFFFF;
 }
 
