@@ -463,12 +463,12 @@ margin-right: 30px;
     display: flex;
 }
 
-.footer-call {
+.footer-connection {
     margin-left: 70px;
     margin-right: auto;
 }
 
-.call {
+.connection {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -484,7 +484,6 @@ margin-right: 30px;
     justify-content: center;
 }
 
-
 .connection-contakt-link {
     width: 44px;
     height: 44px;
@@ -495,8 +494,8 @@ margin-right: 30px;
     align-items: center;
 }
 
-/* .connection-contakt-link {
-    background-color: var(--accent-color); */
+.connection-contakt-link.twitter: {
+    background-color: var(--accent-color);
 }
 
 /* .connection-contakt-link:hover,
@@ -514,7 +513,7 @@ margin-right: 30px;
 }
 
 .connection-contakt-icon {
-    fill: #FFFFFF;
+fill: #FFFFFF;
 }
 
 .logo-secondary {
