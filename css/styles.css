@@ -495,16 +495,16 @@ margin-right: 30px;
     align-items: center;
 }
 
-/* .connection-list .twitter: {
+.connection-link.twitter {
     background-color: var(--accent-color);
-} */
+}
 
-/* .connection-contakt-link:hover,
+/* .connection-link:hover,
 .connection-contakt-link:focus {
     background-color: var(--accent-color);
 }
 
-.connection-contakt-link:hover .connection-contakt-icon,
+.connection-link:hover .connection-contakt-icon,
 .connection-contakt-link:focus .connection-contakt-icon {
     fill: #FFFFFF;
 } */
