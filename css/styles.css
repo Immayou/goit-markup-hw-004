@@ -157,8 +157,7 @@ margin-right: 10px;
 }
 
 .btn-item:hover,
-.btn-item:focus .head-icon
-{
+.btn-item:focus .head-icon {
 fill: var(--accent-color);
 }
 
@@ -418,6 +417,16 @@ margin-right: 30px;
     text-align: center;
 }
 
+.clients-title {
+    font-size: 36px;
+    line-height: 1.17;
+
+    color: var(--clients-title-color);
+
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
 .clients-item {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
@@ -441,15 +450,19 @@ margin-right: 30px;
     align-items: center;
 }
 
-.clients-title {
-    font-size: 36px;
-    line-height: 1.17;
-
-    color: var(--clients-title-color);
-
-    margin-top: 0;
-    margin-bottom: 50px;
+.clients-icon {
+    fill: #AFB1B8;
 }
+
+.clients-item:hover,
+.clients-item:focus {
+    border-color: var(--accent-color);
+}
+
+/* .clients-link:hover,
+.clients-link:focus .clients-icon {
+    fill: var(--accent-color);
+} */
 
 /* футер */
 
