@@ -468,8 +468,7 @@ fill: var(--accent-color);
     fill: #AFB1B8;
 }
 
-.clients-item:hover,
-.clients-item:focus {
+.clients-item:hover {
     border-color: var(--accent-color);
 }
 
@@ -477,7 +476,7 @@ fill: var(--accent-color);
     fill: var(--accent-color);
 } 
 
-.clients-item:focus .clients-icon {
+.clients-link:focus .clients-icon {
     fill: var(--accent-color);
 }
 /* футер */
